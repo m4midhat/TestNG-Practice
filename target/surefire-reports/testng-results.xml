@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="9787" started-at="2020-02-08T10:32:14Z" finished-at="2020-02-08T10:32:24Z">
+    <groups>
+    </groups>
+    <test name="Nopackage" duration-ms="9787" started-at="2020-02-08T10:32:14Z" finished-at="2020-02-08T10:32:24Z">
+      <class name="Test.Runner">
+        <test-method status="PASS" signature="initiateDriver()[pri:0, instance:Test.Runner@3c9168dc]" name="initiateDriver" is-config="true" duration-ms="11631" started-at="2020-02-08T10:31:53Z" finished-at="2020-02-08T10:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriver -->
+        <test-method status="PASS" signature="openURL()[pri:0, instance:Test.Runner@3c9168dc]" name="openURL" is-config="true" duration-ms="9371" started-at="2020-02-08T10:32:05Z" depends-on-methods="Base.TestBase.initiateDriver" finished-at="2020-02-08T10:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Test.Runner@3c9168dc]" name="beforeTest" is-config="true" duration-ms="2" started-at="2020-02-08T10:32:14Z" finished-at="2020-02-08T10:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Test.Runner@3c9168dc]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-02-08T10:32:14Z" finished-at="2020-02-08T10:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test.Runner@3c9168dc]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-08T10:32:14Z" finished-at="2020-02-08T10:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:Test.Runner@3c9168dc]" name="addToCart" duration-ms="9255" started-at="2020-02-08T10:32:15Z" finished-at="2020-02-08T10:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="report()[pri:0, instance:Test.Runner@3c9168dc]" name="report" is-config="true" duration-ms="1" started-at="2020-02-08T10:32:24Z" finished-at="2020-02-08T10:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.Runner@3c9168dc]" name="closeBrowser" is-config="true" duration-ms="1265" started-at="2020-02-08T10:32:24Z" finished-at="2020-02-08T10:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.Runner -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
